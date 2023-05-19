@@ -10,7 +10,7 @@ Additionally, with the exponential increase in volumes of data, stock market ana
 10 year daily stock data (Open, Close, High, Low) from January 2013 to November 2022 for stocks listed on the Nairobi Securities Exchange (NSE). 
 
 ## Methodology
-1. **_Data cleaning and preprocessing_** 
+1. **_Data Cleaning and Preprocessing_** 
     - This entails ensuring the stock data has full price information for the 10 year period and removal of null or outlier values. 
     - An Augmented Dickey Fuller (ADF) test was applied to the stock returns to ensure time series stationarity. 
     - Data is then normalized within the range (0,1) and split into 80% for training and 20% for testing.
